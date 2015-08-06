@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+}
+
+#place ul{
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: Georgia;
+  color: red;
+  text-align: center;
+}
+#place li{
+  display: inline;
+  padding: 0 10px;
+}
+#place p{
+  width: 20%;
+  line-height: 1.5em;
+  font-size: 1.3em;
+  float: left;
+  padding-right: 15px;
+  padding-left: 10px;
+}
+#place img{
+  width: 25%;
+  height: 400px;
+  float: left;
+}
+

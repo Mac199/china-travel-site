@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+}
+#images img{
+  display: block;
+  float: left;
+  width: 25%;
+  height: 400px;
+  /*padding: 0;*/
+
+}
+
+nav {
+  text-align: center;
+  background: aqua;
+}
+li{
+  display: inline;
+  padding: 0 30px;
+  font-size: 1.5em;
+}
+a:link{
+text-decoration: none;
+color: black;
+}
+a:visited{
+  color:#888888;
+}
+a:hover{
+  color: red;
+}
+a:active{
+  text-decoration: underline;
+}
+#map{
+  text-align:center;
+}
+
