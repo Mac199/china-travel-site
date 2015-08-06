@@ -21,6 +21,10 @@ body{
   padding-right: 15px;
   padding-left: 10px;
 }
+#place span{
+  color: red;
+  font-weight: bold;
+}
 #place img{
   width: 25%;
   height: 400px;
