@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+}
+
+#place ul{
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: Georgia;
+  color: red;
+  text-align: center;
+}
+#place li{
+  display: inline;
+  padding: 0 10px;
+}
+#place p{
+  width: 20%;
+  line-height: 1.5em;
+  font-size: 1.3em;
+  float: left;
+  padding-right: 15px;
+  padding-left: 10px;
+}
+#place span{
+  color: red;
+  font-weight: bold;
+}
+#place img{
+  width: 25%;
+  height: 400px;
+  float: left;
+}
+
+#ForbiddenCity p{
+  margin-top: 0;
+}
+#ForbiddenCity img{
+  margin-top: 10px;
+}
+#GreatWall img{
+  margin-top: 30px;
+}
+#GreatWall p{
+  margin-bottom: 0;
+}
+#TheOldSummerPalace {
+float: left;
+}
+#TheOldSummerPalace p{
+  margin-top: 0px;
+}
+#TheOldSummerPalace img{
+  margin-top: 12px;
+
+}
