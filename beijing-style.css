@@ -31,3 +31,25 @@ body{
   float: left;
 }
 
+#ForbiddenCity p{
+  margin-top: 0;
+}
+#ForbiddenCity img{
+  margin-top: 10px;
+}
+#GreatWall img{
+  margin-top: 30px;
+}
+#GreatWall p{
+  margin-bottom: 0;
+}
+#TheOldSummerPalace {
+float: left;
+}
+#TheOldSummerPalace p{
+  margin-top: 0px;
+}
+#TheOldSummerPalace img{
+  margin-top: 12px;
+
+}
