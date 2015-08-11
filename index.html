@@ -6,34 +6,36 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div id="images">
+  <div id="images" class="clearfix">
     <img src="images/Beijing-Palace.jpg" alt="Beijing Palace">
     <img src="images/Changcheng.jpg" alt="Chang Cheng">
     <img src="images/GuiLin.jpg" alt="Gui Lin">
     <img src="images/Tibet.jpeg" alt="Tibet">
   </div>
   <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="Beijing.html" target="_blank">BeiJing</a></li>
-        <li><a href="" target="_blank">Tibet</a></li>
-        <li><a href="" target="_blank">ShangHai</a></li>
-        <li><a href="" target="_blank">HangZhou</a></li>
-        <li><a href="" target="_blank">ChengDu</a></li>
-        <li><a href="" target="_blank">HongKong</a></li>
-      </ul>
-    </nav>
+    <div id="navigation">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Beijing.html" target="_blank">BeiJing</a></li>
+          <li><a href="" target="_blank">Tibet</a></li>
+          <li><a href="" target="_blank">ShangHai</a></li>
+          <li><a href="" target="_blank">HangZhou</a></li>
+          <li><a href="" target="_blank">ChengDu</a></li>
+          <li><a href="" target="_blank">HongKong</a></li>
+        </ul>
+      </nav>
+    </div> 
   </header> 
-  <div id="map">
-    <img  src="images/China.jpg"><br>
-    <figcation>Map Of China</figcation>
-  </div>
+  <figure id="map">
+    <img  src="images/China.jpg" alt="image of china"><br>
+    <figcaption>Map Of China</figcaption>
+  </figure>
   <div id="userinput">
     <form action="#" method="post">
       <input type="text" name="destination" placeholder="where to go?">
       <input type="text" name="time" placeholder="when to go?">
-      <input type="submit" value="Go">
+      <button >Go</button>
     </form>
   </div>
   <footer>

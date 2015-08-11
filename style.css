@@ -1,8 +1,9 @@
-body{
+html, body{
   margin: 0;
+  padding:0;
 }
 #images{
-  margin-top: 0;
+  margin: 0;
 }
 #images img{
   display: block;
@@ -12,10 +13,17 @@ body{
   padding: 0;
 
 }
+#navigation{
+  height: 3em;
+  margin-bottom: 10px;
+  background: aqua;
 
+}
 nav {
   text-align: center;
-  background: aqua;
+}
+ul {
+  margin-top: 0;
 }
 li{
   display: inline;
@@ -23,14 +31,20 @@ li{
   font-size: 1.5em;
 }
 a:link{
-text-decoration: none;
-color: black;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding-top: 8px;
 }
 a:visited{
   color:#888888;
 }
 a:hover{
+  background: black;
   color: red;
+  -ms-transform: rotate(20deg); /* IE 9 */
+  -webkit-transform: rotate(20deg); /* Safari */
+  transform: rotate(20deg);
 }
 a:active{
   text-decoration: underline;
@@ -38,15 +52,43 @@ a:active{
 #map{
   text-align:center;
 }
+figcaption{
+  margin-bottom: 20px;
+}
 #userinput{
-  margin-top: 20px;
-  text-align: center;
-  background: black;
-  width: 320px;
+  margin: auto;
+  background: #1E90FF;
+  width: 600px;
   border: 1px solid red;
   padding: 20px;
 }
 #userinput form{
-  height: 15px;
+  text-align: center;
 }
-
+#userinput form input{
+  height: 2em;
+  font-size: 1.5em;
+}
+#userinput form input[name="destination"]{
+  background-image: url(images/search.png) ;
+  background-repeat: no-repeat;
+  
+  
+}
+#userinput button{
+  height: 3em;
+  background: white;
+  position: relative;
+  bottom: 5px;
+}
+footer{
+  text-align: center;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}

@@ -1,7 +1,38 @@
 body{
   margin: 0;
 }
+#navigation{
+  height: 2em;
+  background: aqua;
+}
+#navigation nav ul li{
+  display: inline;
+  padding: 0 30px;
+  font-size: 1.5em;
+}
+#navigation nav ul{
+  text-align: center;
+  margin: 0;
+}
+#navigation nav ul li a:link{
+display: inline-block;
+text-decoration: none;
+color: black;
+}
+#navigation nav ul li a:visited{
+  color:#888888;
 
+}
+#navigation nav ul li a:hover{
+  background: black;
+  color: red;
+  -ms-transform: rotate(20deg); /* IE 9 */
+  -webkit-transform: rotate(20deg); /* Safari */
+  transform: rotate(20deg);
+}
+#navigation nav ul li a:active{
+  text-decoration: underline;
+}
 #place ul{
   font-size: 1.5em;
   font-weight: bold;
@@ -51,5 +82,46 @@ float: left;
 }
 #TheOldSummerPalace img{
   margin-top: 12px;
-
 }
+#eatingbar{
+  float: left;
+ 
+}
+#eatingbar ul{
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: Georgia;
+  color:red ;
+ text-align: center;
+}
+#eatingbar ul li{
+  display: inline;
+  padding: 0 10px;
+}
+.eatingPicture{
+  width: 731px;
+  height: 196px;
+  border-top: dashed 1px; 
+  float:left;
+  padding: 26px 42px 0px 0px;
+  position: relative;
+  left: 450px;
+}
+.eatingPicture h3{
+  color: #ff8a00;
+  font-weight: normal;
+  float: right;
+  margin: 0;
+  padding: 0;
+margin-right: 300px;
+}
+.eatingPicture p{
+  margin-bottom: 0;
+  margin-top: 0;
+  float: right;
+  width: 468px;
+  position: relative;
+  bottom: 37px;
+}
+
+

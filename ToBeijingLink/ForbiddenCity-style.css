@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+}
+#navigation{
+  height: 2em;
+  background: aqua;
+}
+nav ul li{
+  display: inline;
+  padding: 0 30px;
+  font-size: 1.5em;
+}
+nav ul{
+  text-align: center;
+  margin: 0;
+}
+nav ul li a:link{
+display: inline-block;
+text-decoration: none;
+color: black;
+}
+nav ul li a:visited{
+  color:#888888;
+
+}
+nav ul li a:hover{
+  background: black;
+  color: red;
+  -ms-transform: rotate(20deg); /* IE 9 */
+  -webkit-transform: rotate(20deg); /* Safari */
+  transform: rotate(20deg);
+}
+nav ul li a:active{
+  text-decoration: underline;
+}
+iframe{
+  margin-top: 10px;
+}
+video{
+  margin-top: 20px;
+}
