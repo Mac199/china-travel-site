@@ -83,6 +83,12 @@ float: left;
 #TheOldSummerPalace img{
   margin-top: 12px;
 }
+#foodSelector{
+  float: left;
+  position: relative;
+  top: 74px;
+  left: 20px;
+}
 #eatingbar{
   float: left;
  
@@ -106,6 +112,9 @@ float: left;
   padding: 26px 42px 0px 0px;
   position: relative;
   left: 450px;
+}
+.eatingPicture:hover{
+  background: #F0FFFF;
 }
 .eatingPicture h3{
   color: #ff8a00;
