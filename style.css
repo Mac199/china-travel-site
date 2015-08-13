@@ -72,7 +72,7 @@ figcaption{
 #userinput form input[name="destination"]{
   background-image: url(images/search.png) ;
   background-repeat: no-repeat;
-  
+  background-position: right;
   
 }
 #userinput button{

@@ -51,6 +51,11 @@ color: black;
   float: left;
   padding-right: 15px;
   padding-left: 10px;
+  margin-right: 10px;
+  overflow: auto;
+  height: 400px;
+  border: 1px solid #F4A460;
+   margin-top: 0;
 }
 #place span{
   color: red;
@@ -61,57 +66,39 @@ color: black;
   height: 400px;
   float: left;
 }
-
-#ForbiddenCity p{
-  margin-top: 0;
+#GreatWall{
+  margin-top: 20px;
 }
-#ForbiddenCity img{
-  margin-top: 10px;
-}
-#GreatWall img{
-  margin-top: 30px;
-}
-#GreatWall p{
-  margin-bottom: 0;
-}
-#TheOldSummerPalace {
-float: left;
-}
-#TheOldSummerPalace p{
-  margin-top: 0px;
-}
-#TheOldSummerPalace img{
-  margin-top: 12px;
+#TheOldSummerPalace{
+  margin-top: 20px;
 }
 #foodSelector{
   float: left;
-  position: relative;
-  top: 74px;
-  left: 20px;
 }
 #eatingbar{
-  float: left;
- 
+  margin: 0 auto;
+  width: 900px;
 }
 #eatingbar ul{
   font-size: 1.5em;
   font-weight: bold;
   font-family: Georgia;
   color:red ;
- text-align: center;
 }
 #eatingbar ul li{
   display: inline;
   padding: 0 10px;
 }
+#wrapper{
+  margin-right: 50px;
+}
 .eatingPicture{
   width: 731px;
   height: 196px;
   border-top: dashed 1px; 
-  float:left;
+  float:right;
   padding: 26px 42px 0px 0px;
-  position: relative;
-  left: 450px;
+
 }
 .eatingPicture:hover{
   background: #F0FFFF;
@@ -132,5 +119,15 @@ margin-right: 300px;
   position: relative;
   bottom: 37px;
 }
-
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+} 
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
 

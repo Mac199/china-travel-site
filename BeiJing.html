@@ -4,6 +4,7 @@
   <title>BeiJing</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="beijing-style.css">
+  
 </head>
 <body>
   <div id="navigation">
@@ -20,7 +21,7 @@
     </nav>
   </div>
   
-  <div id="place">
+  <div id="place" class="clearfix">
     <ul>
       <li>Place to go!</li>
       <li><a href="TOBeijingLink/ForbiddenCityVideoMap.html" target="_blank" title="click for video and map">Forbidden City</a></li>
@@ -28,44 +29,29 @@
       <li><a href="" title="click for video and map">The Old Summer Palace</a> </li>
     </ul>
     
-      <div id="ForbiddenCity">
-        <p><span>Forbidden City</span>, the place where many emperors lived and worked, the biggest one in the world, an emperor may have one thousand wifes who lived here together and can't easily leave this building. In this building, you can see thousands of antiques and scenario about how antient people live.</p>
+      <div id="ForbiddenCity"  class="clearfix">
+        <p><span>Forbidden City</span>, was the Chinese imperial palace from the Ming dynasty to the end of the Qing dynasty—the years 1420 to 1912. It is located in the centre of Beijing, China, and now houses the Palace Museum. It served as the home of emperors and their households as well as the ceremonial and political centre of Chinese government for almost 500 years.</p>
         <img src="images/Beijing-Picture/palace-1.jpg" alt="Forbidden City" >
         <img src="images/Beijing-Picture/palace-2.jpg" alt="Forbidden City" >
         <img src="images/Beijing-Picture/palace-3.jpg" alt="Forbidden City" >
       </div>
       
-      <div id="GreatWall">
-        <p><span>the Great Wall</span> of China actually consists of numerous walls and fortifications, many running parallel to each other. Originally conceived by Emperor Qin Shi Huang (c. 259-210 B.C.) in the third century B.C. as a means of preventing incursions from barbarian nomads into the Chinese Empire, the wall is one of the most extensive construction projects ever completed</p>
+      <div id="GreatWall" class="clearfix">
+        <p><span>The Great Wall</span> of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials, generally built along an east-to-west line across the historical northern borders of China to protect the Chinese states and empires against the raids and invasions of the various nomadic groups of the Eurasian Steppe. Several walls were being built as early as the 7th century BC; these, later joined together and made bigger and stronger, are now collectively referred to as the Great Wall. Especially famous is the wall built 220–206 BC by Qin Shi Huang, the first Emperor of China. Little of that wall remains. Since then, the Great Wall has on and off been rebuilt, maintained, and enhanced; the majority of the existing wall is from the Ming Dynasty.</p>
         <img src="images/Great-wall-pic/Great-wall-1.jpg" alt="Great Wall" >
         <img src="images/Great-wall-pic/Great-wall-2.jpg" alt="Great Wall" >
         <img src="images/Great-wall-pic/Great-wall-3.jpg" alt="Great Wall" >
       </div>
       
-      <div id="TheOldSummerPalace">
-        <p><span>the Old Summer Palace</span>, which are about the same size as Central Park in New York, date back to the 12th century. The interesting part of the history begins with Emperor Qianlong who was inspired by French and Italian palaces and had ten palaces of his own designed and built in rococo style in the gardens. </p>
+      <div id="TheOldSummerPalace" class="clearfix">
+        <p><span>the Old Summer Palace</span>, known in Chinese as Yuanmingyuan, and originally called the Imperial Gardens, was a complex of palaces and gardens in Beijing. It is located 8 kilometres northwest of the walls of the Imperial City and was built in the 18th and early 19th century as the place where the emperors of the Qing dynasty resided and handled government affairs. The Old Summer Palace was known for its extensive collection of garden and building architectures and other works of art. Nearby and to the south was an extensive imperial hunting park known as "Nanyuan". </p>
         <img src="images/TheOldSummerPalace/TheOldSummerPalace-1.jpg" alt="The Old Summer Palace" >
         <img src="images/TheOldSummerPalace/TheOldSummerPalace-2.jpg" alt="The Old Summer Palace" >
         <img src="images/TheOldSummerPalace/TheOldSummerPalace-3.jpg" alt="The Old Summer Palace">
       </div>
     <!-- food selector -->
   </div>
-  <div id="foodSelector">
-    <span>Select the food you like</span>
-    <form action="#" method="post">    
-    <select>
-      <option value="wenYuCheese"><a href="www.google.com">Wenyu Cheese</a> </option>
-      <option value="guardingTempleSnackBar">Guarding Temples Snack Bar</option>
-      <option value="oldBeijingYogurt">Old Beijing Yogurt</option>
-      <option value="oldBeijingFriedSourceNoodle">Old Beijing Fried Source Noodle</option>
-      <option value="successFromEatHotPot">Success From Eat Hot Pot</option>
-      <option value="allComeFromHereShaoMai">All Come From Here ShaoMai</option>
-      <option value="qingFengBun">Qing Feng Bun</option>
-      <option value="homeOFGrandMother">Home OF Grand Mother</option>
-    </select>
-    <button>Eat</button>
-    </form>
-  </div>
+  
 
   <div id="eatingbar">
     <ul>
@@ -75,23 +61,42 @@
       <li><a href="">Fried Liver</a> </li>
     </ul>
   </div>
-  <div id="wangfujing" class="eatingPicture">
-    <img src="images/Beijing-Picture/wangfujing.jpg" alt="wang fu jing ">
-    <h3>Wangfujing Street</h3>  
-    <p>Lots of local food from elsewhere in China, they all different from each other.</p>
-  </div>
+  <div id="wrapper" class="clearfix">
+    <div id="foodSelector">
+      <span>Select the food you like</span>
+      <form >    
+      <select id="food">
+        <option value="ToBeijingLink/wenYuCheese.html">Wenyu Cheese</a> </option>
+        <option value="ToBeijingLink/wenYuCheese.html">Guarding Temples Snack Bar</option>
+        <option value="ToBeijingLink/wenYuCheese.html">Old Beijing Yogurt</option>
+        <option value="ToBeijingLink/wenYuCheese.html">Old Beijing Fried Source Noodle</option>
+        <option value="ToBeijingLink/wenYuCheese.html">Success From Eat Hot Pot</option>
+        <option value="ToBeijingLink/wenYuCheese.html">All Come From Here ShaoMai</option>
+        <option value="ToBeijingLink/wenYuCheese.html">Qing Feng Bun</option>
+        <option value="ToBeijingLink/wenYuCheese.html">Home OF Grand Mother</option>
+      </select>
+      <button id="eat">Eat</button>
+      </form>
+    </div>
+    <div id="wangfujing" class="eatingPicture">
+      <img src="images/Beijing-Picture/wangfujing.jpg" alt="wang fu jing ">
+      <h3>Wangfujing Street</h3>  
+      <p>Lots of local food from elsewhere in China, they all different from each other.</p>
+    </div>
 
-   <div id="fried-liver" class="eatingPicture">
-    <img src="images/Beijing-Picture/fried-liver.jpg" alt="fied liver ">
-    <h3>Fired Liver of Yaoji</h3>  
-    <p>An famouse old restaurant,it is well know that their fired liver is the best across the country.</p>
-  </div>
+     <div id="fried-liver" class="eatingPicture">
+      <img src="images/Beijing-Picture/fried-liver.jpg" alt="fied liver ">
+      <h3>Fired Liver of Yaoji</h3>  
+      <p>An famouse old restaurant,it is well know that their fired liver is the best across the country.</p>
+    </div>
 
-  <div id="beijing-duck" class="eatingPicture">
-    <img src="images/Beijing-Picture/beijing-duck.jpg" alt="beijing duck ">
-    <h3>Beijing Duck</h3>  
-    <p>Peking Duck is a famous duck dish from Beijing that has been prepared since the imperial era.</p>
+    <div id="beijing-duck" class="eatingPicture">
+      <img src="images/Beijing-Picture/beijing-duck.jpg" alt="beijing duck ">
+      <h3>Beijing Duck</h3>  
+      <p>Peking Duck is a famous duck dish from Beijing that has been prepared since the imperial era.</p>
+    </div>
   </div>
-
+<script src="http://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
