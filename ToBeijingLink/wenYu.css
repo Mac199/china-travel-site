@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900);
+clearfix{
+  content: '.';
+  height: 0px;
+  line-height: 0;
+  visibility: hidden;
+  clear: both;
+  display: block;
+}
+#wrapper{
+  width: 960px;
+  margin:0 auto;
+}
+body{
+  margin: 0;
+}
+#navigation{
+  height: 2em;
+  background: aqua;
+}
+#navigation nav ul li{
+  display: inline;
+  padding: 0 18px;
+  font-size: 1.5em;
+}
+#navigation nav ul{
+  margin: 0 auto;
+}
+#navigation nav ul li a:link{
+display: inline-block;
+text-decoration: none;
+color: black;
+}
+#navigation nav ul li a:visited{
+  color:#888888;
+}
+#navigation nav ul li a:hover{
+  background: black;
+  color: red;
+  -ms-transform: rotate(20deg); /* IE 9 */
+  -webkit-transform: rotate(20deg); /* Safari */
+  transform: rotate(20deg);
+}
+#navigation nav ul li a:active{
+  text-decoration: underline;
+}
+header h3{
+   font-family: "Elsie Swash Caps", cursive;
+   margin-bottom: 3px;
+   margin-top: 14px;
+}
+header img{
+  width: 80px;
+}
+#PictureAndMap img{
+width: 500px;
+height: 300px;
+}
+#PictureAndMap iframe{
+  float: right;
+}
+#menuAndHour h3{
+   font-family: "Elsie Swash Caps", cursive;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+.col-1 {
+  width: 18.4%;
+  margin-left:2%;
+  margin-right: 0;
+  float: left;
+}
+.col-1 img{
+  max-width: 100%;
+}
+#menu figure:first-child{
+  margin-left:0;
+}
