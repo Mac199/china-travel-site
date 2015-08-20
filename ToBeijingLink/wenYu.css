@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900);
-clearfix{
+.clearfix:after{
   content: '.';
   height: 0px;
   line-height: 0;
@@ -59,6 +59,9 @@ height: 300px;
 #PictureAndMap iframe{
   float: right;
 }
+#menuAndHour{
+  width: 100%;
+}
 #menuAndHour h3{
    font-family: "Elsie Swash Caps", cursive;
    margin-top: 0px;
@@ -71,9 +74,56 @@ height: 300px;
   margin-right: 0;
   float: left;
 }
-.col-1 img{
+.col-1 figure{
+  margin: 0;
+}
+.col-1 figure img{
+  max-width: 100%;
+  width: 100%;
+}
+#menu :first-child{
+  margin-left:0;
+}
+#table{
+  width: 100%;
   max-width: 100%;
 }
-#menu figure:first-child{
-  margin-left:0;
+#workHour h4{
+  margin-top:0;
+  margin-bottom: 4px;
+}
+.customerInfor {
+  width:40%;
+  float: left;
+}
+.customer{
+  width: 62px;
+  margin: 0;
+  padding: 0;
+  float:left;
+}
+.customer img{
+  width: 60px;
+  height: 60px;
+}
+.nameAndPlace{
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.nameAndPlace ul{
+  margin: 0;
+  list-style: none;
+  font-size: 14px;
+  padding-left: 6px;
+}
+.recommendation{
+  float: left;
+  width: 60%;
+}
+.recommendation img{
+  width: 80px;
+}
+.recommendation p{
+   margin-top: 3px;
 }

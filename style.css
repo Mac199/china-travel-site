@@ -82,9 +82,10 @@ figcaption{
   bottom: 5px;
 }
 footer{
-  text-align: center;
+  clear: both;
   line-height: 0;
-  margin-top: 45px
+  margin-top: 45px;
+  text-align: center;
 }
 .clearfix:after {
   content: "";
