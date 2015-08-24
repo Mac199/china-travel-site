@@ -1,0 +1,95 @@
+@media only screen  and (max-width: 960px){
+  #wrapper{
+    width: 90%;
+    margin: 0 auto;
+  }
+  #navigation nav ul a{
+    font-size: 0.7em;
+  }
+  #PictureAndMap img{
+    width: 45%;
+  }
+  #PictureAndMap iframe{
+    width: 45%;
+    margin-left:10%; 
+  }
+
+@media only screen and (max-width: 827px){
+  #navigation nav ul a{
+    font-size: 0.5em;
+  }
+  #navigation nav ul{
+    padding-left:60px; 
+  }
+  #table{
+    font-size: 0.7em;
+  }
+}
+@media only screen and (max-width: 738px){
+  #navigation nav ul li{
+ /*   padding: 0 8px;*/
+  }
+   #navigation nav ul{
+    padding-left:15px; 
+  }
+}
+@media only screen and (max-width: 700px){
+    #navigation nav ul li{
+    padding: 0 8px;
+  }
+  #navigation nav ul{
+    padding-left:50px; 
+  }
+}
+@media only screen and (max-width: 580px){
+    #navigation nav ul li{
+    padding: 0 8px;
+  }
+  #navigation nav ul{
+    padding-left:10px; 
+  }
+}
+@media only screen and (max-width: 510px){
+      #navigation nav ul li{
+    padding: 4px;
+  }
+  #navigation nav ul{
+    padding-left:10px; 
+  }
+}
+@media only screen and (max-width: 447px){
+      #navigation nav ul li{
+    padding: 0 2px;
+  }
+  #navigation nav ul{
+    padding-left:8px; 
+  }
+  #table{
+    font-size: 0.5em;
+  }
+}
+@media only screen and (max-width: 420px){
+      #navigation nav ul li{
+    padding: 0 1px;
+  }
+  #navigation nav ul{
+    padding-left:3px; 
+  }
+  #table{
+    font-size: 0.5em;
+  }
+}
+@media only screen and (max-width: 410px){
+      #navigation nav ul li{
+    padding: 0 4px;
+  }
+  #navigation nav ul{
+    padding-left:8px; 
+  }
+  #navigation{
+    font-size: 0.75em;
+  }
+  #table{
+    font-size: 0.5em;
+  }
+}
