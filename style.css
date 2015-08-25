@@ -13,7 +13,7 @@ html, body{
 #social a{
   display: block;
   width: 40px;
-  height: 40px;
+  height: 33px;
   text-indent: 100%;
   white-space: nowrap;
   background: url(images/social-icons.png) no-repeat; /**/
@@ -64,7 +64,7 @@ nav {
   text-align: center;
 }
 ul {
-  margin-top: 0;
+  margin: 0 auto;
 }
 li{
   display: inline;
@@ -92,6 +92,9 @@ a:active{
 }
 #map{
   text-align:center;
+}
+#map img{
+  max-width: 100%;
 }
 figcaption{
   margin-bottom: 20px;
@@ -127,6 +130,13 @@ footer{
   line-height: 0;
   margin-top: 45px;
   text-align: center;
+}
+.email:hover{
+   -ms-transform:none; /* IE 9 */
+  -webkit-transform:none; /* Safari */
+  transform: none;
+  background: none;
+  color:blue;
 }
 .clearfix:after {
   content: "";

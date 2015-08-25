@@ -1,0 +1,93 @@
+@media only screen  and (max-width: 1124px){
+   #navigation nav ul{
+    padding-left: 0;
+    font-size: 0.7em;
+   }
+}
+@media only screen  and (max-width: 877px){
+   #navigation nav ul{
+    padding-left: 0;
+    font-size: 0.7em;
+   }
+   #navigation nav ul li{
+    padding: 0 10px;
+   }
+}
+@media only screen  and (max-width: 540px){
+   #navigation nav ul{
+    padding-left: 0;
+    font-size: 0.5em;
+   }
+   #navigation nav ul li{
+    padding: 0 5px;
+   }
+}
+@media only screen  and (max-width: 418px){
+   #navigation nav ul{
+    padding-left: 0;
+    font-size: 0.5em;
+   }
+   #navigation nav ul li{
+    padding: 0 2px;
+   }
+}
+@media only screen  and (max-width: 724px){
+  #social{
+    position: absolute;
+    width: auto;
+    top:480px;
+    left:0;
+
+  }
+  #social a{
+    display: inline-block;
+    text-indent: -100%;
+  }
+}
+@media only screen and (max-width: 720px){
+  #userinput{
+    width: 80%;
+    padding: 18px;
+  }
+  #userinput form input {
+    height: 1.5em;
+    font-size: 1.3em;
+  }
+  #userinput button{
+    bottom: 3px;
+    height: 2.3em;
+  }
+}
+@media only screen and (max-width: 611px){
+  #userinput form input{
+    font-size: 0.8em;
+    background-size: contain;
+  }
+  #userinput button{
+    bottom: 0px;
+    height: 1.9em;
+  }
+}
+@media only screen and (max-width: 408px){
+  #userinput button{
+    bottom: 0px;
+    height: 1.9em;
+    width: 2em;
+    font-size: 0.8em;
+    text-align: center;
+  }
+@media only screen and (max-width: 375px){
+  #userinput form input {
+    font-size: 0.3em;
+  }
+  #userinput button{
+    bottom: 0px;
+    height: 1.8em;
+    width: 2.5em;
+    font-size: 0.8em;
+    padding-top: 0;
+  }
+  #userinput {
+    padding: 9px;
+  }
+}
