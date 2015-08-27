@@ -1,34 +1,25 @@
 @media only screen  and (max-width: 1124px){
    #navigation nav ul{
     padding-left: 0;
-    font-size: 0.7em;
+    font-size: 70%;
+    padding-top: 13px;
    }
+   #navigation a{
+    padding-top: 1px;
+   }
+
 }
-@media only screen  and (max-width: 877px){
+
+@media only screen  and (max-width: 900px){
    #navigation nav ul{
-    padding-left: 0;
-    font-size: 0.7em;
+    font-size: 56%;
+    padding-top: 13px;
+   }
+   #navigation a{
+    padding-top: 1px;
    }
    #navigation nav ul li{
-    padding: 0 10px;
-   }
-}
-@media only screen  and (max-width: 540px){
-   #navigation nav ul{
-    padding-left: 0;
-    font-size: 0.5em;
-   }
-   #navigation nav ul li{
-    padding: 0 5px;
-   }
-}
-@media only screen  and (max-width: 418px){
-   #navigation nav ul{
-    padding-left: 0;
-    font-size: 0.5em;
-   }
-   #navigation nav ul li{
-    padding: 0 2px;
+    padding: 0 9px;
    }
 }
 @media only screen  and (max-width: 724px){
@@ -43,51 +34,26 @@
     display: inline-block;
     text-indent: -100%;
   }
-}
-@media only screen and (max-width: 720px){
-  #userinput{
-    width: 80%;
-    padding: 18px;
+  #userinput {
+    width: 88%;
+    padding: 17px 4px;
   }
-  #userinput form input {
-    height: 1.5em;
-    font-size: 1.3em;
-  }
-  #userinput button{
-    bottom: 3px;
-    height: 2.3em;
-  }
-}
-@media only screen and (max-width: 611px){
   #userinput form input{
-    font-size: 0.8em;
+    width: 35%;
+    font-size: 0.6em;
     background-size: contain;
   }
-  #userinput button{
-    bottom: 0px;
-    height: 1.9em;
+  #userinput form button{
+    font-size: 1em;
+    bottom: -2px;
+    height: auto;
   }
 }
-@media only screen and (max-width: 408px){
-  #userinput button{
-    bottom: 0px;
-    height: 1.9em;
-    width: 2em;
-    font-size: 0.8em;
-    text-align: center;
+@media only screen and (max-width: 510px){
+  #navigation {
+    font-size: 56%;
   }
-@media only screen and (max-width: 375px){
-  #userinput form input {
-    font-size: 0.3em;
-  }
-  #userinput button{
-    bottom: 0px;
-    height: 1.8em;
-    width: 2.5em;
-    font-size: 0.8em;
-    padding-top: 0;
-  }
-  #userinput {
-    padding: 9px;
-  }
+   #navigation nav ul{
+    padding-top: 7px;
+   }
 }

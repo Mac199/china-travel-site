@@ -1,0 +1,139 @@
+body{
+  margin: 0;
+ 
+}
+.clearfix:after{
+  content: '.';
+  height: 0;
+  visibility: hidden;
+  line-height: 0;
+  display: block;
+  clear: both;
+}
+.clear{
+  clear: both;
+}
+#wrapper{
+  width:960px;
+  margin: 0 auto;
+
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing:border-box;
+}
+/*///COL SETTING*/
+
+
+/*////NAV/////////*/
+header nav{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1em;
+  border-bottom: 1px solid   #E0A366; 
+  margin-bottom: 15px;
+  position: fixed;
+  top:0;
+  background: #f3e2c7; /* Old browsers */
+background: -moz-linear-gradient(top,  #f3e2c7 11%, #e9d4b3 51%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(11%,#f3e2c7), color-stop(51%,#e9d4b3)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f3e2c7 11%,#e9d4b3 51%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f3e2c7 11%,#e9d4b3 51%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f3e2c7 11%,#e9d4b3 51%); /* IE10+ */
+background: linear-gradient(to bottom,  #f3e2c7 11%,#e9d4b3 51%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=0 ); /* IE6-9 */
+}
+header nav a{
+  display: inline-block;
+  padding: 0 54.8px;
+  border-right: 1px solid   #E0A366; 
+  font: 2em "Trebuchet MS", Arial, sans-serif;
+  text-decoration: none;
+  color: black;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3e2c7+11,e9d4b3+51 */
+
+
+}
+/*////NAV/////////*/
+
+
+/*////CONTENT/////*/
+.map{
+  margin-top: 30px;
+}
+.map figure{
+  width: 68%;
+  float: left;
+  padding: 0;
+  margin: 0 2% 0 0;
+  box-shadow: 5px 10px 5px #E0A366;
+}
+.map figure img{
+  max-width: 100%;
+  
+}
+.map figure figcaption{
+  text-align: right;
+  max-width: 100%;
+}
+.map p{
+  width: 30%;
+  float: left;
+  margin-top: 0; 
+  line-height:2em; 
+  border: 1px solid   #E0A366;
+  padding: 20px;
+  box-shadow: 5px 10px 5px #E0A366;
+}
+.travelJournal{
+  margin-top: 20px;
+}
+.travelJournal figure{
+  margin: 0 2% 0 0;
+  width: 20%;
+  height: auto;
+  float: left;
+  box-shadow: 5px 10px 5px #E0A366;
+  border: 1px solid   #E0A366;
+}
+.travelJournal figure img{
+  max-width: 100%;
+}
+.travelJournal p{
+  width: 78%;
+  float: left;
+  margin-top: 0;
+  box-shadow: 5px 10px 5px #E0A366;
+  border: 1px solid   #E0A366;
+}
+
+#details{
+
+  margin-top: 20px;
+}
+.col-1{
+  width: 31%;
+  float: left;
+  margin-right: 3.5%;
+  border-right: 1px solid #E0A366;
+  height: 166px;
+  box-shadow: 5px 10px 5px #E0A366;
+  border: 1px solid   #E0A366;
+
+}
+.last-col{
+  margin-right: 0;
+  border-right: none;
+}
+.col-1 a{
+  text-decoration: none;
+  color: black;
+}
+footer {
+  text-align: center; 
+  margin-top: 20px;
+  padding: 10px;
+ /* background: #eee;*/
+  border-top: 1px solid #E0A366; 
+}
