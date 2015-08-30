@@ -1,0 +1,29 @@
+.item img{
+  
+}
+a{
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+}
+.title{
+  margin-top: 25px;
+}
+.title:hover{
+  color: #FF704D;
+}
+.liveSpotFood img{
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px; 
+}
+.liveSpotFood p{
+  padding-left: 10px;
+  padding-right: 10px; 
+}
+footer{
+    border-top: 1px solid #000;
+    height: 35px;
+    text-align: center;
+}

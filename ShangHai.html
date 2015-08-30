@@ -9,7 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" type="text/css" href="css/ShangHai.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -37,13 +37,13 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-                  <li><a href="#">Beijing</a></li>
-                  <li><a href="#">Tibet</a></li>
-                  <li><a href="#">ShangHai</a></li>
-                  <li><a href="#">HangZhou</a></li>
-                  <li><a href="#">ChengDu</a></li>
-                  <li><a href="#">HongKong</a></li>
+                  <li class="active"><a href="index.html" target="_blank">Home <span class="sr-only">(current)</span></a></li>
+                  <li><a href="Beijing.html" target="_blank">Beijing</a></li>
+                  <li><a href="Tibet.html" target="_blank">Tibet</a></li>
+                  <li><a href="ShangHai.html" target="_blank">ShangHai</a></li>
+                  <li><a href="HangZhou.html" target="_blank">HangZhou</a></li>
+                  <li><a href="ChengDu.html" target="_blank">ChengDu</a></li>
+                  <li><a href="HongKong.html" target="_blank">HongKong</a></li>
                   <!-- <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                     <ul class="dropdown-menu">
@@ -121,12 +121,20 @@
                   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
               </div>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+               <div class="item">
+                <img src="images/ShangHai/ShangHai-3.jpg" alt="ShangHai">
+                <div class="carousel-caption">
+                  <h3>ShangHai</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+
             </div>
 
             <!-- Controls -->
@@ -144,10 +152,14 @@
 
       <div class="row"><!-- ROW STARS -->
         <div class="col-md-4">
-          <h3><a>How to live</a></h3>
           <a href="#">
-           <div   class="method">
-             <h4>Follower place</h4>
+            <div>
+              <h3 class="title">How to live</h3>
+            </div>
+          </a>
+          <a href="#">
+           <div   class="liveSpotFood">
+             <h4 class="title">Follower place</h4>
              <img src="images/ShangHai/live.png" alt="live">
              <p>25% tourists choose to live here, Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -155,8 +167,8 @@
            </div>
           </a>
           <a href="#">
-            <div   class="method">
-              <h4>Summer Hotel</h4>
+            <div   class="liveSpotFood">
+              <h4 class="title">Summer Hotel</h4>
               <p>23% tourists choolse here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
@@ -164,19 +176,23 @@
         </div>
         
         <div class="col-md-4">
-         <h3><a>rank of spot</a></h3> 
+         <a href="#">
+           <div>
+            <h3 class="title">rank of spot</h3> 
+           </div>
+         </a>
            <a href="#">
-           <div   class="method">
-             <h4>Outsibe Beach</h4>
-             <img src="images/ShangHai/live.png" alt="live">
+           <div class="liveSpotFood">
+             <h4 class="title">Outsibe Beach</h4>
+             <img src="images/ShangHai/spot.png" alt="spot">
              <p>25% tourists choose to live here, Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
              </p>
            </div>
           </a>
           <a href="#">
-            <div   class="method">
-              <h4>Walking Street</h4>
+            <div class="liveSpotFood">
+              <h4 class="title">Walking Street</h4>
               <p>23% tourists choolse here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
@@ -184,14 +200,64 @@
         </div>
 
         <div class="col-md-4">
-         <h3>rank of food</h3> 
+        <a href="#">
+          <div>
+            <h3 class="title">rank of food</h3>
+          </div>
+        </a>           
+          <a href="#">
+           <div class="liveSpotFood">
+            <a href="">             
+              <h4 class="title">fry</h4>                                  
+             <img src="images/ShangHai/food.png" alt="food">
+             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+             tempor incididunt ut labore.
+             </p>
+           </div>
+          </a>
+          <a href="#">
+            <div class="liveSpotFood">
+              <h4 class="title">TangBao</h4>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.tempor incididunt ut labore.</p>
+            </div>
+          </a>
         </div>
       </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Contact</h3>
+          <span>email: <a href="mailto: xuheng24@gmailcom">xuheng24@gmail.com</a><br>
+          phone: +1 201 222 3342</span>
+          <h3>Correspondenc</h3>
+          <address>132 Jefferson Stree<br>
+          Hoboken,NJ 07030</address>
+        </div>
+
+        <div class="col-md-4">
+          <h3>Links</h3>
+          <a href="#">officia</a></br>
+          <a href="#">mollit anim</a></br>
+          <a href="#"> in culpa</a>
+        </div>
+
+        <div class="col-md-4">
+          <h3>Follows</h3>
+          <a href="#">Facebook</a></br>
+          <a href="#">Twitter</a></br>
+          <a href="#">Youtube</a>
+        </div>
+      </div>
+      <footer>
+        & copy: Mac Lin. All Rights Reserved.
+      </footer>
     </div><!-- container ends -->
   
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="css/bootstrap-3.3.5-distjs/bootstrap.min.js"></script>
+    <script src="css/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
   </body>
 </html>
