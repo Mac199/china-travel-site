@@ -95,6 +95,9 @@ header nav a{
 
 
 }
+.right{
+  border-right: none;
+}
 /*////NAV/////////*/
 
 
@@ -149,7 +152,7 @@ header nav a{
 }
 
 #details{
-
+  width: 100%;
   margin-top: 20px;
 }
 .col-1{
@@ -169,6 +172,10 @@ header nav a{
 .col-1 a{
   text-decoration: none;
   color: black;
+}
+.detail{
+  padding-left: 10px;
+  width: 100%; 
 }
 footer {
   text-align: center; 
