@@ -1,5 +1,7 @@
-.item img{
-  
+img, video,audio {
+  width: 100%;
+  max-width: 100%;
+
 }
 a{
   color: black;
