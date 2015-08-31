@@ -45,7 +45,7 @@ body{
 #social a[title='twitter']:link{
   background-position: 0 -40px;
 }
-#social a[title='youtube']:link{
+#social a[title='google plus']:link{
   background-position: 0 -80px;
 }
 #social a[title='facebook']:hover{
@@ -54,16 +54,17 @@ body{
 #social a[title='twitter']:hover{
   background-position: -40px -40px;
 }
-#social a[title='youtube']:hover{
+#social a[title='google plus']:hover{
   background-position: -40px -80px;
 }
 #social a[title='facebook']:visited{
   background-position: -80px 0;
+
 }
 #social a[title='twitter']:visited{
   background-position: -80px -40px;
 }
-#social a[title='youtube']:visited{
+#social a[title='google plus']:visited{
   background-position: -80px -80px;
 }
 /*////NAV/////////*/
