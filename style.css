@@ -71,14 +71,14 @@ li{
   padding: 0 30px;
   font-size: 1.5em;
 }
-a:link{
+a{
   display: inline-block;
   text-decoration: none;
   color: black;
   padding-top: 8px;
 }
 a:visited{
-  color:#888888;
+  color:#888;
 }
 a:hover{
   background: black;
