@@ -125,6 +125,21 @@ figcaption{
   position: relative;
   bottom: 5px;
 }
+
+.cityBox{
+  width: 635px;
+  margin: 0 auto;
+  border: 1px solid blue;
+}
+.cityBox ul{
+  font-size: 0.7em;
+}
+.cityBox ul li{
+  margin-bottom: 10px;
+}
+.cityBox ul li input{
+  margin-right: 5px;
+}
 footer{
   clear: both;
   line-height: 0;

@@ -10,7 +10,6 @@
   <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script>
 </head>
 <body>
-  <p>ffffffffffffffffffffff</p>
   <div id="social">
     <a class='twitter' href="" title="twitter">Twitter</a>
     <a href="" title="facebook">Facebook</a>
@@ -48,10 +47,45 @@
       <button >Go</button>
     </form>
   </div>
-  <footer>
-     <p>&copy; Mac Lin</p>
-  <p>Contact information: <a class='email' href="mailto:xuheng24@gmail.com">xuheng24@gmail.com</a></p>
+  <!-- cityBox -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body"> 
+        ...
+        <!-- modal-body -->
+        <div class="cityBox">
+          <p>Most popular cities</p>
+          <ul class="cities">
+            <li><input type="checkbox" name="Beijing" value="Beijing">Beijing</li> 
+            <li><input type="checkbox" name="Tibet" value="Tibet">Tibet</li>
+            <li><input type="checkbox" name="HongKong" value="HongKong">HongKong</li>
+            <li><input type="checkbox" name="ShangHai" value="ShangHai">ShangHai</li>
+            <li><input type="checkbox" name="HangZhou" value="HangZhou">HangZhou</li>
+            <li><input type="checkbox" name="ChengDu" value="ChengDu">ChengDu</li>
+          </ul>
+        </div>
+        <!-- modal-body ends -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
+  <!-- cityBox -->
+  <footer>
+    <p>&copy; Mac Lin</p>
+    <p>Contact information: <a class='email' href="mailto:xuheng24@gmail.com">xuheng24@gmail.com</a></p>
   </footer>
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src='Js/index.js'></script>
+  <script type="text/javascript" src='css/bootstrap-3.3.5-dist/js/bootstrap.min.js'></script>
 </body>
 </html>

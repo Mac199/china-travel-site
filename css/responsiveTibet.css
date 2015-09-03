@@ -14,4 +14,14 @@
   .detail{
     font-size: 10px;
   }
+  .menu-icon{
+    display: block;
+    float: right;
+    width: auto;
+
+  }
+  header nav #menu-links{
+    display: none;
+    clear:both;
+  }
 }

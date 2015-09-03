@@ -85,6 +85,9 @@ background: -ms-linear-gradient(top,  #f3e2c7 11%,#e9d4b3 51%); /* IE10+ */
 background: linear-gradient(to bottom,  #f3e2c7 11%,#e9d4b3 51%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=0 ); /* IE6-9 */
 }
+.menu-icon{
+  display: none;
+}
 header nav a{
   display: inline-block;
   padding: 0 54.8px;
