@@ -151,7 +151,7 @@ figcaption{
 #userinput form{
   text-align: center;
 }
-#userinput form input .input{
+#userinput form input{
   height: 2em;
   font-size: 1.5em;
 }
