@@ -4,10 +4,20 @@
   <title>China-Travel</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width initial-scale=1.0" maximum-scale='1.0' minimum-scale='1.0'/>
+   <link type="text/css" rel="stylesheet" href='css/bootstrap-3.3.5-dist/css/bootstrap.css'></link>
+  <link type="text/css" rel="stylesheet" href='css/bootstrap-3.3.5-dist/css/bootstrap-theme.css'></link> 
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="indexResponsive.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
-  <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script>
+  <link href="css/bootstrap-datetimepicker.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="http:/resources/demos/style.css">
+  <script>
+  $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+  </script>
 </head>
 <body>
   <div id="social">
@@ -22,16 +32,66 @@
     <img src="images/Tibet.jpeg" alt="Tibet">
   </div>
   <header>
-    <div id="navigation">
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="BeiJing.html" target="_blank">BeiJing</a></li>
-          <li><a href="Tibet.html" target="_blank">Tibet</a></li>
-          <li><a href="ShangHai.html" target="_blank">ShangHai</a></li>
-          <li><a href="#" target="_blank">HangZhou</a></li>
-          <li><a href="#" target="_blank">ChengDu</a></li>
-          <li><a href="#" target="_blank">HongKong</a></li>
+    <div id="navigation" class="clearfix">
+      <nav class="clearfix">
+        <ul class="clearfix">
+          <li class="mainLink"><a href="index.html">Home</a>
+          </li>
+
+          <li class="mainLink"><a href="BeiJing.html" target="_blank">BeiJing</a>
+            <ul class="nestedList">
+              <li><a href="#">BeiJing</a></li>
+              <li><a href="#">BeiJing</a></li>
+              <li><a href="#">BeiJing</a></li>
+              <li class="borderBottomNone"><a href="#">BeiJing</a></li>
+            </ul>
+          </li>
+
+          <li class="mainLink"><a href="Tibet.html" target="_blank">Tibet</a>
+            <ul class="nestedList">
+              <li><a href="#">Tibet</a></li>
+              <li><a href="#">Tibet</a></li>
+              <li><a href="#">Tibet</a></li>
+              <li class="borderBottomNone"><a href="#">Tibet</a></li>
+            </ul> 
+          </li>
+        
+          <li class="mainLink"><a href="ShangHai.html" target="_blank">ShangHai</a>
+            <ul class="nestedList">
+              <li><a href="#">ShangHai</a></li>
+              <li><a href="#">ShangHai</a></li>
+              <li><a href="#">ShangHai</a></li>
+              <li class="borderBottomNone"><a href="#">ShangHai</a></li>
+            </ul>
+          </li>
+          
+          <li class="mainLink"><a href="#" target="_blank">HangZhou</a>
+            <ul class="nestedList">
+              <li><a href="#">HangZhou</a></li>
+              <li><a href="#">HangZhou</a></li>
+              <li><a href="#">HangZhou</a></li>
+              <li class="borderBottomNone"><a href="#">HangZhou</a></li>
+            </ul> 
+          </li>
+         
+          <li class="mainLink"><a href="#" target="_blank">ChengDu</a>
+            <ul class="nestedList">
+              <li><a href="#">ChengDu</a></li>
+              <li><a href="#">ChengDu</a></li>
+              <li><a href="#">ChengDu</a></li>
+              <li class="borderBottomNone"><a href="#">ChengDu</a></li>
+            </ul> 
+          </li>
+         
+          <li class="mainLink"><a href="#" target="_blank">HongKong</a>
+            <ul class="nestedList">
+              <li><a href="#">HongKong</a></li>
+              <li><a href="#">HongKong</a></li>
+              <li><a href="#">HongKong</a></li>
+              <li class="borderBottomNone"><a href="#">HongKong</a></li>
+            </ul>   
+          </li>
+       
         </ul>
       </nav>
     </div> 
@@ -40,52 +100,66 @@
     <img  src="images/China.jpg" alt="image of china"><br>
     <figcaption>Map Of China</figcaption>
   </figure>
+  <!-- USER INPUT -->
   <div id="userinput">
     <form action="#" method="post">
-      <input type="text" name="destination" placeholder="where to go?">
-      <input type="text" name="time" placeholder="when to go?">
+      <input class='input' type="text" name="destination" placeholder="where to go?">
+      <input type="text" id='datepicker' name="time" placeholder="when to go?">
       <button >Go</button>
+      <!-- DATE -->
     </form>
   </div>
+  
+
   <!-- cityBox -->
   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body"> 
-        ...
-        <!-- modal-body -->
-        <div class="cityBox">
-          <p>Most popular cities</p>
-          <ul class="cities">
-            <li><input type="checkbox" name="Beijing" value="Beijing">Beijing</li> 
-            <li><input type="checkbox" name="Tibet" value="Tibet">Tibet</li>
-            <li><input type="checkbox" name="HongKong" value="HongKong">HongKong</li>
-            <li><input type="checkbox" name="ShangHai" value="ShangHai">ShangHai</li>
-            <li><input type="checkbox" name="HangZhou" value="HangZhou">HangZhou</li>
-            <li><input type="checkbox" name="ChengDu" value="ChengDu">ChengDu</li>
-          </ul>
+    <div class="modal-dialog modal-sm">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
         </div>
-        <!-- modal-body ends -->
-      </div>
-      <div class="modal-footer">
+        <div class="modal-body"> 
+          <!-- modal-body -->
+          <div class="cityBox">
+            <p>Most popular cities</p>
+            <ul class="cities">
+              <li><input type="checkbox" name="Beijing" value="Beijing">Beijing</li> 
+              <li><input type="checkbox" name="Tibet" value="Tibet">Tibet</li>
+              <li><input type="checkbox" name="HongKong" value="HongKong">HongKong</li>
+              <li><input type="checkbox" name="ShangHai" value="ShangHai">ShangHai</li>
+              <li><input type="checkbox" name="HangZhou" value="HangZhou">HangZhou</li>
+              <li><input type="checkbox" name="ChengDu" value="ChengDu">ChengDu</li>
+            </ul>
+          </div>
+
+          <!-- modal-body ends -->
+          <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>
       </div>
+        </div>
     </div>
-  </div>
-</div>
-
-  <!-- cityBox -->
+    </div>
+    </div>
+    </div> 
+    <span id='backToTop'></span>           
   <footer>
     <p>&copy; Mac Lin</p>
     <p>Contact information: <a class='email' href="mailto:xuheng24@gmail.com">xuheng24@gmail.com</a></p>
   </footer>
-  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script type="text/javascript" src='Js/index.js'></script>
+   
+    <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js'></script>
+  
+  
+  
   <script type="text/javascript" src='css/bootstrap-3.3.5-dist/js/bootstrap.min.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+  <script src="Js/bootstrap-datetimepicker.js"></script>
+  <script type="text/javascript" src='Js/index.js'></script>
+  
+  <script type="text/javascript" >
+  $('#datetimepicker1').datetimepicker(); </script>
 </body>
 </html>

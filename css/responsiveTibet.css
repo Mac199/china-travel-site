@@ -24,4 +24,13 @@
     display: none;
     clear:both;
   }
+  header nav #menu-links a{
+    display: block;
+    width: 100%;
+    clear: both;
+    text-align: left;
+    border-right: none;
+    border-bottom: 1px solid #FFB84D;
+    padding: 10px;
+  }
 }

@@ -2,6 +2,22 @@ html, body{
   margin: 0;
   padding:0;
 }
+/*BACK TO TOP ICON*/
+#backToTop{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(images/icons/backToTop.png) no-repeat;
+  background-position: 0 0;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 2;
+}
+#backToTop:hover{
+  background-position: -50px 0; 
+}
+/*ENDS*/
 /*////SOCIAL /////*/
 #social{
   position: fixed;
@@ -63,10 +79,33 @@ html, body{
 nav {
   text-align: center;
 }
-ul {
+#navigation nav ul {
+  width:80%;
+  padding: 0;
   margin: 0 auto;
 }
-li{
+#navigation nav ul li {
+  float:left;
+}
+/*#navigation nav ul ul*/
+#navigation nav ul ul{
+  background-color: #B2FFFF;
+  opacity: 1;
+  position:absolute;
+  width:110px;
+  z-index:1000;
+}
+#navigation nav ul ul li{
+  border-bottom: 1px solid grey;
+  text-align: center;
+  display:block;
+  float:none;
+}
+#navigation nav ul ul li.borderBottomNone{
+  border-bottom: none;
+}
+.mainLink{
+  width:14%;
   display: inline;
   padding: 0 30px;
   font-size: 1.5em;
@@ -83,12 +122,15 @@ a:visited{
 a:hover{
   background: black;
   color: red;
-  -ms-transform: rotate(20deg); /* IE 9 */
-  -webkit-transform: rotate(20deg); /* Safari */
-  transform: rotate(20deg);
+/*  -ms-transform: rotate(20deg); *//* IE 9 */
+/*  -webkit-transform: rotate(20deg);*/ /* Safari */
+/*  transform: rotate(20deg);*/
 }
 a:active{
   text-decoration: underline;
+}
+.nestedList{
+  display: none;
 }
 #map{
   text-align:center;
@@ -109,7 +151,7 @@ figcaption{
 #userinput form{
   text-align: center;
 }
-#userinput form input{
+#userinput form input .input{
   height: 2em;
   font-size: 1.5em;
 }
@@ -125,9 +167,8 @@ figcaption{
   position: relative;
   bottom: 5px;
 }
-
 .cityBox{
-  width: 635px;
+  width: 100%;
   margin: 0 auto;
   border: 1px solid blue;
 }
@@ -136,6 +177,7 @@ figcaption{
 }
 .cityBox ul li{
   margin-bottom: 10px;
+  padding: 0 14px;
 }
 .cityBox ul li input{
   margin-right: 5px;

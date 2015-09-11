@@ -4,5 +4,4 @@ $(function() {
                     var food=$('#food').val();
                     window.location.href=food;
                     })
-
 });

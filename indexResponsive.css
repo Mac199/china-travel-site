@@ -38,6 +38,10 @@
     width: 88%;
     padding: 17px 4px;
   }
+  /**/
+  #navigation nav ul ul{
+    width:10%;
+  }
   #userinput form input{
     width: 35%;
     font-size: 0.6em;
