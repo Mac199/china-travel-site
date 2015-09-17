@@ -62,13 +62,21 @@ html, body{
 #images{
   margin: 0;
 }
+.scaleImage{
+  overflow: hidden;
+  width: 25%;
+  float: left;
+}
 #images img{
   display: block;
   float: left;
-  width: 25%;
+  width: 100%;
   height: 400px;
-  padding: 0;
-
+  padding: 0;  
+  transition:all 2s;
+}
+#images img:hover{
+  transform: scale(2);
 }
 #navigation{
   height: 3em;

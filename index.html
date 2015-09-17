@@ -8,16 +8,10 @@
   <link type="text/css" rel="stylesheet" href='css/bootstrap-3.3.5-dist/css/bootstrap-theme.css'></link> 
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="indexResponsive.css">
-  <link href="css/bootstrap-datetimepicker.css" rel="stylesheet">
-  <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-  <link rel="stylesheet" href="http:/resources/demos/style.css">
-  <script>
-  $(function() {
-    $( "#datepicker" ).datepicker();
-  });
-  </script>
+  <link href="jquery-ui-1.11.4.custom/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+  <link href="jquery-ui-1.11.4.custom/jquery-ui.structure.min.css" rel="stylesheet" type="text/css" />
+  <link href="jquery-ui-1.11.4.custom/jquery-ui.theme.min.css" rel="stylesheet" type="text/css" />
+   <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js'></script> 
 </head>
 <body>
   <div id="social">
@@ -26,10 +20,18 @@
     <a href="" title="google plus">Google Plus</a>
   </div>
   <div id="images" class="clearfix">
+    <div class="scaleImage">
     <img src="images/Beijing-Palace.jpg" alt="Beijing Palace">
+    </div>
+    <div class="scaleImage">
     <img src="images/Changcheng.jpg" alt="Chang Cheng">
+    </div>
+    <div class="scaleImage">
     <img src="images/GuiLin.jpg" alt="Gui Lin">
+    </div>
+    <div class="scaleImage">
     <img src="images/Tibet.jpeg" alt="Tibet">
+    </div>
   </div>
   <header>
     <div id="navigation" class="clearfix">
@@ -104,7 +106,7 @@
   <div id="userinput">
     <form action="#" method="post">
       <input type="text" name="destination" placeholder="where to go?">
-      <input type="text"  name="time" placeholder="when to go?">
+      <input type="text" id="datepicker"  name="time" placeholder="when to go?">
       <button >Go</button>
       <!-- DATE -->
     </form>
@@ -124,14 +126,16 @@
           <!-- modal-body -->
           <div class="cityBox">
             <p>Most popular cities</p>
-            <ul class="cities">
-              <li><input type="checkbox" name="Beijing" value="Beijing">Beijing</li> 
-              <li><input type="checkbox" name="Tibet" value="Tibet">Tibet</li>
-              <li><input type="checkbox" name="HongKong" value="HongKong">HongKong</li>
-              <li><input type="checkbox" name="ShangHai" value="ShangHai">ShangHai</li>
-              <li><input type="checkbox" name="HangZhou" value="HangZhou">HangZhou</li>
-              <li><input type="checkbox" name="ChengDu" value="ChengDu">ChengDu</li>
-            </ul>
+            <form>
+              <ul class="cities">
+                <li><input type="checkbox" name="Beijing" value="Beijing">Beijing</li> 
+                <li><input type="checkbox" name="Tibet" value="Tibet">Tibet</li>
+                <li><input type="checkbox" name="HongKong" value="HongKong">HongKong</li>
+                <li><input type="checkbox" name="ShangHai" value="ShangHai">ShangHai</li>
+                <li><input type="checkbox" name="HangZhou" value="HangZhou">HangZhou</li>
+                <li><input type="checkbox" name="ChengDu" value="ChengDu">ChengDu</li>
+              </ul>
+            </form>
           </div>
 
           <!-- modal-body ends -->
@@ -149,17 +153,16 @@
     <p>&copy; Mac Lin</p>
     <p>Contact information: <a class='email' href="mailto:xuheng24@gmail.com">xuheng24@gmail.com</a></p>
   </footer>
-   
-    <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js'></script>
-  
-  
+  <script>
+    $(function(){
+      $( "#datepicker" ).datepicker({
+      changeYear: true
+    });
+    });
+  </script> 
   
   <script type="text/javascript" src='css/bootstrap-3.3.5-dist/js/bootstrap.min.js'></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
-  <script src="Js/bootstrap-datetimepicker.js"></script>
   <script type="text/javascript" src='Js/index.js'></script>
-  
-  <script type="text/javascript" >
-  $('#datetimepicker1').datetimepicker(); </script>
+<script src="jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
 </body>
 </html>

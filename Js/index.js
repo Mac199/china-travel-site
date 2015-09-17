@@ -10,10 +10,6 @@ $(document).ready(function(){
       show:true
     });
  });
- 
- $('#example').datetimepicker();
-
-
 $("#backToTop").click(function(){
    window.scrollTo(0, 0);
 })
