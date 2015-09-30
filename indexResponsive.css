@@ -7,7 +7,9 @@
    #navigation a{
     padding-top: 1px;
    }
-
+  #images img{
+    height: 250px;
+  }
 }
 
 @media only screen  and (max-width: 900px){

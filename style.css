@@ -124,9 +124,7 @@ a{
   color: black;
   padding-top: 8px;
 }
-a:visited{
-  color:#888;
-}
+
 a:hover{
   background: black;
   color: red;
