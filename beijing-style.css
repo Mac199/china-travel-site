@@ -14,12 +14,14 @@ body{
   text-align: center;
   margin: 0;
 }
-#navigation nav ul li a:link{
+#navigation nav ul li a{
 display: inline-block;
 text-decoration: none;
 color: black;
 }
-
+/*#navigation nav ul li a:visited{
+  color: black;
+}*/
 /*#navigation nav ul li a:hover{
   background: black;
   color: red;
@@ -92,7 +94,7 @@ color: black;
 }
 #eatingbar ul li a{
   color:  black;
-  text-decoration: none;
+  text-decoration: none;  
 }
 #wrapper{
   margin-right: 50px;
