@@ -26,14 +26,12 @@ body{
 #navigation nav ul{
   margin: 0 auto;
 }
-#navigation nav ul li a:link{
+#navigation nav ul li a{
 display: inline-block;
 text-decoration: none;
 color: black;
 }
-#navigation nav ul li a:visited{
-  color:#888888;
-}
+
 #navigation nav ul li a:hover{
   background: black;
   color: red;
