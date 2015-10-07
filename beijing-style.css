@@ -19,19 +19,9 @@ display: inline-block;
 text-decoration: none;
 color: black;
 }
-/*#navigation nav ul li a:visited{
-  color: black;
-}*/
-/*#navigation nav ul li a:hover{
-  background: black;
-  color: red;
-  -ms-transform: rotate(20deg);
-  -webkit-transform: rotate(20deg); 
-  transform: rotate(20deg);
-}*/
-/*#navigation nav ul li a:active{
-  text-decoration: underline;
-}*/
+
+
+
 #place ul{
   font-size: 1.5em;
   font-weight: bold;
