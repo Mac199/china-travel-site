@@ -14,15 +14,12 @@ nav ul{
   text-align: center;
   margin: 0;
 }
-nav ul li a:link{
+nav ul li a{
 display: inline-block;
 text-decoration: none;
 color: black;
 }
-nav ul li a:visited{
-  color:#888888;
 
-}
 nav ul li a:hover{
   background: black;
   color: red;
