@@ -14,15 +14,12 @@ body{
   text-align: center;
   margin: 0;
 }
-#navigation nav ul li a:link{
+#navigation nav ul li a{
 display: inline-block;
 text-decoration: none;
 color: black;
 }
-#navigation nav ul li a:visited{
-  color:#888888;
 
-}
 #navigation nav ul li a:hover{
   background: black;
   color: red;
@@ -30,9 +27,7 @@ color: black;
   -webkit-transform: rotate(20deg); /* Safari */
   transform: rotate(20deg);
 }
-#navigation nav ul li a:active{
-  text-decoration: underline;
-}
+
 #place ul{
   font-size: 1.5em;
   font-weight: bold;
